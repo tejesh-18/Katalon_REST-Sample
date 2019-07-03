@@ -17,5 +17,5 @@ response = WS.sendRequest(findTestObject('Update user', [('userName') : GlobalVa
 
 WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, 'name', 'Mike')
+WS.verifyElementPropertyValue(response, 'name', 'Mikessss')
 
